@@ -8,10 +8,9 @@ st.set_page_config(
     page_icon=":sunglasses:"
     )
 
-st.title("Sentiment Analysis")
-st.write("This is a simple example of how to use Streamlit to perform sentiment analysis on text data.")
+st.title("😎 Movie Review Rating Predictor")
 
-review = st.text_area("Enter your review here:")
+review = st.text_area("Write your movie review below, and we'll predict the rating for you!")
 
 if st.button("Predict"):
     result = predict({'review': review})
