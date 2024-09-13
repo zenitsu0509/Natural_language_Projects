@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sentiment Analysis Web Application</title>
+<!--     <title>Sentiment Analysis Web Application</title> -->
 </head>
 <body>
+
 
 <h1>Sentiment Analysis Web Application</h1>
 
