@@ -148,4 +148,3 @@ predicted_labels = np.argmax(y_pred, axis=1)
 print([target[label] for label in predicted_labels])
 
 model.summary()
-
